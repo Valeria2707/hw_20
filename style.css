@@ -1,0 +1,44 @@
+.blockPeople, .blockPlanet, .blockVehicles{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.btnNext, .btnBack{
+    display: none;
+}
+
+.blockInfoAndBtnAll{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.btnPeople , .btnPlanet, .btnVehicles, .btnNext, .btnBack{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(155, 237, 209);
+    border: 1px solid rgb(34, 201, 145);
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.blockInfo{
+    background-color: rgb(155, 237, 209);
+    border: 1px solid rgb(34, 201, 145);
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    font-size: 16px;
+    width: 50%;
+}
+
+.listPeople, .listPlanet, .listVehicles{
+    font-weight: bold;
+    cursor: pointer;
+}
