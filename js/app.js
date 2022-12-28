@@ -290,6 +290,7 @@ function createArrFilms(film, click){
      let arrfilm = [];
      for(let i = 0; i < result.length; i++){
          arrfilm.push(result[i].value.data.title);
+         console.log(result[i].value.data.title);
     }
     createElement('div', null, null, 'films:' + arrfilm.join(', '), listPeopleMoreInf);
  });
